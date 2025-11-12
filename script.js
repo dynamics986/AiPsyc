@@ -78,7 +78,7 @@
       contact_title: '提交与说明',
       contact_desc: '本页面为前端展示，无需后端功能。建议将仓库启用 GitHub Pages 托管。',
       cta_chat: '查看 chat.md',
-      cta_pages_guide: 'GitHub Pages 指南',
+      cta_pages_guide: '我们的Github页面',
       contact_note_html: '仓库包含 <code>chat.md</code>，记录与生成式 AI 的交互与提示。',
       footer_text: '© 2025 AiPsyc — 心理疗愈 AI 视频批量生产平台（演示）',
       footer_readme: '保留所有权利'
@@ -126,7 +126,7 @@
       contact_title: 'Submission & Notes',
       contact_desc: 'This page is a frontend demo, no backend needed. Recommend hosting via GitHub Pages.',
       cta_chat: 'Open chat.md',
-      cta_pages_guide: 'GitHub Pages Guide',
+      cta_pages_guide: ' Our GitHub Page',
       contact_note_html: 'Repo includes <code>chat.md</code> recording interactions and prompts with generative AI.',
       footer_text: '© 2025 AiPsyc — AI Video Batch Production Platform for Psychological Healing (Demo)',
       footer_readme: 'All Right Reserved'
