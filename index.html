@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>心理疗愈AI视频批量生产平台</title>
+  <meta name="description" content="面向心理学知识传播与疗愈的AI视频批量生产工具，支持多模态内容生成与对话陪伴。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">AiPsyc</a>
+    <nav id="nav" class="nav">
+      <a href="#features" data-i18n="nav_features">功能亮点</a>
+      <a href="#tech" data-i18n="nav_tech">技术要点</a>
+      <a href="#usecases" data-i18n="nav_usecases">使用场景</a>
+      <a href="#workflow" data-i18n="nav_workflow">工作流程</a>
+      <a href="#contact" data-i18n="nav_contact">联系与提交</a>
+      <select id="languageSelect" class="lang-select" aria-label="Language">
+        <option value="zh">中文</option>
+        <option value="en">English</option>
+      </select>
+      <button id="themeToggle" class="theme-toggle" aria-label="切换主题">🌓</button>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="打开菜单" aria-expanded="false" aria-controls="nav">☰</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-i18n="hero_title">面向心理疗愈的 AI 视频批量生产平台</h1>
+      <p data-i18n="hero_desc">把专业心理学家的洞见，转化成可传播的短视频与文案，
+      辅助咨询师授课与用户自助康复，并支持 24×7 情绪陪伴。</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#features" data-i18n="btn_learn_features">了解功能</a>
+        <a class="btn" href="#contact" data-i18n="btn_view_submission">查看提交方式</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 600 300" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="var(--brand)"/>
+            <stop offset="100%" stop-color="var(--brand-2)"/>
+          </linearGradient>
+        </defs>
+        <path d="M0 200 C150 120 250 280 400 200 C500 150 550 250 600 200 L600 300 L0 300 Z" fill="url(#g)"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h2 data-i18n="features_title">功能亮点</h2>
+    <div class="cards">
+      <article class="card">
+        <h3><a href="generator.html" class="inline" data-i18n="card1_title">批量生产与传播</a></h3>
+        <p data-i18n="card1_desc">面向心理学知识与疗愈主题，自动生成短视频与文案，支持一键多平台素材导出。</p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="card2_title">多模态生成</h3>
+        <p data-i18n="card2_desc">文本、语音、视频模型协同：脚本草拟、配音合成、镜头剪辑与字幕水印自动化。</p>
+      </article>
+      <article class="card">
+        <h3><a href="https://chat.deepseek.com/" class="inline" target="_blank" rel="noopener" data-i18n="card3_title">对话陪伴</a></h3>
+        <p data-i18n="card3_desc">为咨询师与用户提供智能助理，按关键词与语气识别情绪，生成安抚性内容。 <a class="inline" href="https://chat.deepseek.com/" target="_blank" rel="noopener" data-i18n="card3_link">打开 DeepSeek</a></p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="card4_title">教学助理</h3>
+        <p data-i18n="card4_desc">把心理专家的要点准确转述为课程视频与讲义，提升备课与授课效率。</p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="card5_title">群聊管理</h3>
+        <p data-i18n="card5_desc">支持多个群聊的知识推送与互动，统一管理疗愈用户群。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="tech" class="section alt">
+    <h2 data-i18n="tech_title">技术要点</h2>
+    <ul class="list">
+      <li data-i18n="tech_li1">海量、准确的心理学知识与数据收集与治理。</li>
+      <li data-i18n="tech_li2">多模态转换：文字⇄视频、要点⇄文字、语音合成与识别。</li>
+      <li data-i18n="tech_li3">内容准确性保障与自我纠错策略与评审环节。</li>
+      <li data-i18n="tech_li4">情绪理解：通过关键词与语气分析，生成具有安抚作用的内容。</li>
+    </ul>
+  </section>
+
+  <section id="usecases" class="section">
+    <h2 data-i18n="usecases_title">使用场景</h2>
+    <div class="grid2">
+      <div>
+        <h3 data-i18n="usecases_1_title">用户自我检测与康复</h3>
+        <p data-i18n="usecases_1_desc">提供自测问卷、认知行为训练视频与正念练习内容，自动生成个性化计划。</p>
+      </div>
+      <div>
+        <h3 data-i18n="usecases_2_title">咨询师知识传播</h3>
+        <p data-i18n="usecases_2_desc">面向课程与社群高效产出视频与文案素材，维持稳定的内容节奏。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="workflow" class="section alt">
+    <h2 data-i18n="workflow_title">工作流程</h2>
+    <ol class="steps">
+      <li data-i18n="workflow_li1">需求分析：选题、受众与渠道。</li>
+      <li data-i18n="workflow_li2">内容生成：脚本草拟、素材生成、配音合成。</li>
+      <li data-i18n="workflow_li3">视频剪辑：自动剪辑、颜色校正、字幕水印。</li>
+      <li data-i18n="workflow_li4">测试优化：质量评审与迭代。</li>
+      <li data-i18n="workflow_li5">部署与监控：发布到多平台并监控效果。</li>
+    </ol>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 data-i18n="contact_title">提交与说明</h2>
+    <p data-i18n="contact_desc">本页面为前端展示，无需后端功能。建议将仓库启用 GitHub Pages 托管。</p>
+    <div class="cta">
+      <a class="btn" href="https://pages.github.com/" target="_blank" rel="noopener" data-i18n="cta_pages_guide"> Our GitHub Pages</a>
+    </div>
+    <p class="note" data-i18n-html="contact_note_html">仓库包含 <code>chat.md</code>，记录与生成式 AI 的交互与提示。</p>
+  </section>
+
+  <footer class="site-footer">
+    <p data-i18n="footer_text">© 2025 AiPsyc — 心理疗愈 AI 视频批量生产平台（演示）</p>
+    <p><a target="_blank" rel="noopener" data-i18n="footer_readme"></a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

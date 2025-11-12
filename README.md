@@ -1,0 +1,39 @@
+# AiPsyc — 心理疗愈 AI 视频批量生产平台（演示）
+
+本仓库为 Vibe Coding Challenge 的前端落地页展示：仅使用 HTML/CSS/JS，无后端依赖，强调移动端友好与信息呈现。
+
+## 目录结构
+- `index.html` — 主页面
+- `styles.css` — 样式（暗/明主题、响应式）
+- `script.js` — 交互（移动端菜单、主题切换）
+- `chat.md` — 记录与生成式 AI 的交互
+
+## 移动端操作说明
+- 访问方式：
+  - 本机预览：在桌面浏览器打开 `http://localhost:8000/`，使用开发者工具切换为手机尺寸（如 iPhone、Android）。
+  - 真机预览：手机与电脑在同一网络，手机浏览器访问 `http://<电脑IP>:8000/`（例如 `http://192.168.1.10:8000/`）。
+- 交互与功能：
+  - 菜单：右上角「☰」为移动端菜单，点击展开/收起；点击后会有更大的命中区域，便于触控。
+  - 主题：月亮按钮可切换深浅主题；偏好会保存在本地。
+  - 语言：下拉框可切换 `中文 / English`，切换后页面文案即时更新并持久化。
+- 适配策略：
+  - 页头与导航在 640px 以下自动切换弹出式菜单；在更小屏（≤480px）缩小英雄区内边距与装饰高度。
+  - 文本采用流式字体与相对单位（`%`/`vw`/`rem`），避免小屏溢出。
+  - 图片与 SVG 均为自适应（`max-width: 100%`，`height: auto`）。
+  - 针对喜欢低动效的用户，若系统设置为减少动效，将禁用过渡与动画。
+
+## 提交与托管（GitHub Pages）
+1. 新建 GitHub 仓库（例如 `aipsyc-landing`）。
+2. 在本地初始化并推送：
+   ```bash
+   git init
+   git add .
+   git commit -m "feat: initial landing page"
+   git branch -M main
+   git remote add origin https://github.com/<yourname>/aipsyc-landing.git
+   git push -u origin main
+   ```
+3. 打开仓库 Settings → Pages：
+   - Source 选择 `Deploy from a branch`
+   - Branch 选择 `main`，目录选择 `/root`（或 `/docs` 若你使用 docs 目录）
+   - 保存后等待生效，页面地址形如 `https://<yourname>.github.io/aipsyc-landing/`
